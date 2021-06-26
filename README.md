@@ -8,7 +8,7 @@ SSH into Pi https://www.yodeck.com/docs/display/YO/Remotely+access+your+Yodeck+p
 
 Allow user to access GPIO peripherals
 
-    usermod -aG gpio user
+    sudo usermod -aG gpio user
     sudo reboot
 
 Install WiringPi library
